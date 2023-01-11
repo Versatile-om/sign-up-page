@@ -1,0 +1,98 @@
+*{
+  margin:0px;
+  padding:0px;
+}
+
+body{
+  background-color:skyblue;
+  font-family: 'Roboto',sans-serif;
+}
+
+ /* Sign Up Box Start*/
+ 
+.signup-box{
+  background-color:white;
+  width:300px;
+  height:500px;
+  margin: auto;
+  margin-top:100px;
+  border-radius:3%;
+  box-shadow: 5px 5px 8px black;
+}
+
+/*Sign Up Box End*/
+
+
+/*Login Box Start*/
+
+.login-box{
+  background-color:white;
+  width:300px;
+  height:250px;
+  margin: auto;
+  margin-top:100px;
+  border-radius:3%;
+  box-shadow: 5px 5px 8px black;
+}
+
+.login-box a{
+  color:blue;
+}
+
+#forgot-pass{
+  font-size: 15px;
+}
+/*Login Box End*/
+
+h1,h4{
+  text-align: center;
+  position: relative ;
+  top:10px;
+}
+
+hr{
+  background-color:black;
+  height:1px;
+}
+
+.form{
+  margin:10px;
+}
+
+.form input{
+  width:270px;
+  height:18px;
+  border-radius:5px;
+  outline:none;
+  cursor:pointer;
+}
+
+.btn{
+  background-color:lightgreen;
+  width:275px;
+  height :30px;
+  border:none;
+  border-radius:5px;
+  color:black;
+  font-size:16px;
+}
+
+.btn:hover{
+  color:lightgreen;
+  background:white;
+  border:2px solid lightgreen;
+}
+
+p{
+  text-align:center;
+  margin-top: 20px;
+  font-size:14px;
+}
+
+a{
+  color:purple;
+}
+
+.bottomlink{
+  color:blue;
+}
